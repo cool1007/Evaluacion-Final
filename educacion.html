@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Juan Carlos Donoso">
+    <meta name="description" content="Hoja de Vida de Juan Carlos Donoso">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <svg width="250px" height="100px" viewBox="0 0 250 100">
+      <image xlink:href="images/logo.svg" width="250px" height="100px" x="0px" y="0px">
+    </svg>
+    <h1>Hoja de Vida</h1>
+    <h2>Juan Carlos Donoso</h2>
+    <h3>Fecha y Lugar de Nacimiento: Diciembre 4 de 1977, Guayaquil - Ecuador</h3>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1982-1990</td>
+          <td>Jardín y Escuela Mundo Infantil</td>
+          <td>Guayaquil</td>
+          <td align="center">Sí</td>
+        </tr>
+        <tr>
+          <td>1990-1996</td>
+          <td>Centro Educativo Bilingüe Nuevo Mundo</td>
+          <td>Guayaquil</td>
+          <td align="center">Sí</td>
+        </tr>
+        <td>2011-2014</td>
+        <td>Universidad Particular Técnica de Loja</td>
+        <td>Guayaquil</td>
+        <td align="center">No</td>
+      </tbody>
+    </table>
+    <hr>
+    <form autocomplete="on" name="Agregar Estudios">
+      <fieldset>
+        <legend>Agregar Estudios</legend>
+        <p>
+          <label for="Año">Año:</label>
+            <select name="Año">
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+            </select>
+        </p>
+        <p>
+          <label for="institucion">Institución:</label>
+          <input id="institucion" type="text" placeholder="Ingrese el nombre de la Institución" size="50px" required>
+        </p>
+        <p>
+          <label for="lugar">Lugar:</label>
+          <textarea name="lugar" rows="10" cols="30"></textarea>
+        </p>
+        <p>
+          <label for="culmino">¿Culminó?</label>
+          <input type="radio" name="culmino" value="Si" checked> Sí
+          <input type="radio" name="culmino" value="No"> No
+        </p>
+        <input type="submit" value="Enviar">
+      </fieldset>
+    <footer>
+      <p>© Derechos Reservados</p>
+      <ul>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:jdonoso@gmail.com?subject=Sugerencias">jdonoso@gmail.com</a></li>
+        <li><strong>Teléfono:</strong> +593(9)81142689</li>
+        <li><strong>Dirección:</strong> Ciudadela Entre Ríos Mz. A1 villa #21. Guayaquil, Guayas, Ecuador.</li>
+      </ul>
+    </footer>
+  </body>
+</html>
